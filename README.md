@@ -9,9 +9,9 @@ Prerequisites for installing hadoop on windows
 
 Steps to setup hadoop 2.5.1 on Windows Platform
 
-1. Download hadoop 2.5.1 tar file from here.
+1. Download hadoop 2.5.1 7zip file added here (hadoop-2.5.1.7z).
 
-2. uzip thie file.
+2. uzip the file.
 
 3. Go to "etc\hadoop" directory inside hadoop folder
 
@@ -70,7 +70,6 @@ Steps to setup hadoop 2.5.1 on Windows Platform
 
 7. Add following the the Environment variables
 
-        Platform=x64
         HADOOP_HOME = <Location of you hadoop folder> //In my case it is "C:\hadoop"
         Path =C:\hadoop\bin;C:\cygwin64\bin;%Path%
 
